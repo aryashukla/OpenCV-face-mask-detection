@@ -5,7 +5,7 @@ cap=cv2.VideoCapture(0)
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 480)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT,720)
 
-m=cv2.CascadeClassifier('face_mask_cascade.xml')
+m=cv2.CascadeClassifier('cascade.xml')
 print(m.load('face.xml'))
 
 while True:
