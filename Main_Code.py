@@ -41,4 +41,4 @@ sudo apt-get install libopencv-dev
 opencv_createsamples -info bg_pos.lst -num 5540 -w 25 -h 25 -vec positives_5540.vec
 
 #Training Cascade
-opencv_traincascade -data data -vec positives_1316.vec -bg bg_negmid_1600.txt -numPos 5000 -numNeg 2700 -numStages 4 -w 25 -h 25
+opencv_traincascade -data data -vec positives_1316.vec -bg bg_negmid_1600.txt -numPos 5000 -numNeg 2700 -numStages 5 -w 25 -h 25
